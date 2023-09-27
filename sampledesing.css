@@ -1,0 +1,38 @@
+.material-icons{
+    position:static;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: start;
+    opacity: 0.5;
+    color: cadetblue;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.back{
+    min-width: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.above h1{
+font-size: 50px;
+color: #94be31;
+position:center;
+}
+h4{
+    color: cadetblue;
+}
+.reg{
+    color: blueviolet;
+    margin: 0;
+    position:absolute;
+    height: 50px;
+  position: relative;
+}
