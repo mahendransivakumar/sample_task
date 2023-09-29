@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("./games.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1 {
+font-size:55px;
+color: yellow;
+margin: 0px;
+}
+ul{
+    list-style-type:none;
+    margin:30px;
+    padding:20px;
+    overflow: hidden;
+    justify-content:right;
+    font-size: medium;
+    font-family: fantasy;
+  }
+  li a {
+    display: block;
+    color: red;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  h2{
+    font-size:55px;
+    color: blueviolet;
+  }
+ ol:hover a{
+    font-family:fantasy;
+    font-size:35PX;
+    color: rgba(4, 241, 43, 0.945);
+    font-size:30px;
+ }
+ label{
+    size:35px;
+    color:#111;
+    font-size:35px;
+    font-family: fantasy;
+ }
